@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #575353;
+}
+
+.wrapper {
+  height: 100vh;
+
+  .box {
+    height: 100%;
+    border: 1px solid white;
+    width: 500px;
+
+    &.a {
+      background-color: black;
+    }
+
+    &.b {
+      background-color: orange;
+    }
+
+    &.c {
+      background-color: tomato;
+    }
+
+    &.d {
+      background-color: lightblue;
+    }
+  }
+
+  .spacer {
+    height: 100vh;
+  }
+
+  .container {
+    position: relative;
+    height: 100vh;
+
+    img {
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+      max-height: 100vh;
+    }
+  }
+
+}
